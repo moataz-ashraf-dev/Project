@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: #06111f;
+    color: #e8f6ff;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  button, input, select, textarea { font: inherit; }
+  ::selection { background: rgba(0, 210, 255, .24); }
+}
+
+@layer utilities {
+  .neon-text-cyan { text-shadow: 0 0 8px rgba(0, 240, 255, .6), 0 0 20px rgba(0, 240, 255, .3); }
+  .neon-text-emerald { text-shadow: 0 0 8px rgba(0, 255, 157, .6), 0 0 20px rgba(0, 255, 157, .3); }
+  .neon-text-green { text-shadow: 0 0 8px rgba(57, 255, 20, .6), 0 0 20px rgba(57, 255, 20, .3); }
+  .neon-text-amber { text-shadow: 0 0 8px rgba(255, 170, 0, .6), 0 0 20px rgba(255, 170, 0, .3); }
+  .neon-text-rose { text-shadow: 0 0 8px rgba(255, 61, 113, .6), 0 0 20px rgba(255, 61, 113, .3); }
+  .neon-border-cyan { box-shadow: 0 0 8px rgba(0, 240, 255, .4), 0 0 24px rgba(0, 240, 255, .15), inset 0 0 8px rgba(0, 240, 255, .08); }
+  .neon-border-emerald { box-shadow: 0 0 8px rgba(0, 255, 157, .4), 0 0 24px rgba(0, 255, 157, .15), inset 0 0 8px rgba(0, 255, 157, .08); }
+  .neon-border-amber { box-shadow: 0 0 8px rgba(255, 170, 0, .4), 0 0 24px rgba(255, 170, 0, .15), inset 0 0 8px rgba(255, 170, 0, .08); }
+  .neon-border-rose { box-shadow: 0 0 8px rgba(255, 61, 113, .4), 0 0 24px rgba(255, 61, 113, .15), inset 0 0 8px rgba(255, 61, 113, .08); }
+  .neon-border-green { box-shadow: 0 0 8px rgba(57, 255, 20, .4), 0 0 24px rgba(57, 255, 20, .15), inset 0 0 8px rgba(57, 255, 20, .08); }
+  .glass {
+    background: rgba(7, 22, 39, .70);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+}
+
+@keyframes rotate-border { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.rotate-border { animation: rotate-border 3s linear infinite; }
+@keyframes motivational-shift { 0%, 90% { opacity: 1; } 95% { opacity: 0; } 100% { opacity: 1; } }
+.motivational-shift { animation: motivational-shift 4s ease-in-out infinite; }
+
+@media (max-width: 1023px) {
+  .studyquest-app { background-attachment: fixed; }
+}

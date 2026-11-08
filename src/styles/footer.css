@@ -1,0 +1,19 @@
+/* Low-profile footer that belongs to the page instead of reading as a dark bar. */
+.app-footer { border-top:1px solid var(--sq-border-soft); background:transparent; }
+.app-footer__inner { display:grid; grid-template-columns:minmax(0,1fr) minmax(16rem,1.25fr) minmax(0,1fr); align-items:center; gap:1.5rem; }
+.app-footer__brand { display:flex; align-items:center; gap:.7rem; min-width:0; }
+.app-footer__mark { display:grid; place-items:center; width:2.3rem; height:2.3rem; flex:none; border:1px solid color-mix(in srgb,var(--sq-accent-cyan) 28%,transparent); border-radius:.8rem; background:color-mix(in srgb,var(--sq-accent-cyan) 9%,var(--sq-surface-solid)); color:var(--sq-accent-cyan); }
+.app-footer__brand-copy { display:flex; flex-direction:column; gap:.12rem; color:var(--sq-heading); font-size:.8rem; line-height:1.35; }
+.app-footer__brand-copy strong { font-weight:850; letter-spacing:-.01em; }
+.app-footer__brand-copy > span { display:flex; align-items:center; gap:.22rem; color:var(--sq-muted); font-size:.7rem; }
+.app-footer__heart { width:.75rem; height:.75rem; color:#d85f79; fill:#d85f79; }
+.app-footer__quote { display:flex; justify-content:center; align-items:center; gap:.55rem; min-width:0; margin:0; color:var(--sq-muted-strong); font-size:.82rem; font-weight:650; line-height:1.5; text-align:center; }
+.app-footer__quote-dot { width:.42rem; height:.42rem; flex:none; border-radius:50%; background:var(--sq-accent-green); box-shadow:0 0 0 3px color-mix(in srgb,var(--sq-accent-green) 12%,transparent); }
+.app-footer__links { display:flex; justify-content:flex-end; align-items:center; gap:.35rem; }
+.app-footer__links button { display:inline-flex; align-items:center; gap:.4rem; min-height:2.25rem; border:1px solid transparent; border-radius:.7rem; padding:.4rem .55rem; background:transparent; color:var(--sq-muted); font-size:.76rem; font-weight:650; white-space:nowrap; transition:color .16s,background .16s,border-color .16s; }
+.app-footer__links button:hover { border-color:var(--sq-border-soft); background:var(--sq-hover); color:var(--sq-heading); }
+.studyquest-app.theme-light .app-footer { border-color:#dce2e6; }
+.studyquest-app.theme-dark .app-footer { border-color:#29333f; }
+@media (max-width:1100px) { .app-footer__inner { grid-template-columns:1fr auto; row-gap:.65rem; } .app-footer__quote { grid-column:1/-1; grid-row:2; justify-content:flex-start; text-align:start; } .app-footer__links { grid-column:2; grid-row:1; } }
+@media (max-width:700px) { .app-footer__inner { grid-template-columns:1fr; } .app-footer__links { grid-column:1; grid-row:2; justify-content:flex-start; flex-wrap:wrap; } .app-footer__quote { grid-row:3; } }
+

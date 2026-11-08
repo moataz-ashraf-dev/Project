@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Jade Griffin">
+<defs><radialGradient id="bg"><stop stop-color="#50dfa1" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#50dfa1"/><stop offset="1" stop-color="#d8ffe9"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#50dfa1" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#50dfa1" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#d8ffe9" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#e7fff1" stroke-width="3" stroke-linejoin="round">
+<path d="M166 291Q157 215 188 181L171 115L219 157Q240 149 261 157L309 115L292 181Q323 215 314 291Q281 331 240 331Q199 331 166 291Z"/>
+<path d="M176 238L92 188L131 267M304 238L388 188L349 267" fill="#43c88e"/>
+<path d="M191 174L163 146M289 174L317 146" fill="none"/><circle cx="210" cy="205" r="10" fill="#fff"/><circle cx="270" cy="205" r="10" fill="#fff"/><circle cx="212" cy="207" r="5" fill="#081426"/><circle cx="268" cy="207" r="5" fill="#081426"/><path d="M228 246Q240 257 252 246" fill="none"/>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

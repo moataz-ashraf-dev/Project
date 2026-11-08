@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Celestial Whale">
+<defs><radialGradient id="bg"><stop stop-color="#63bfff" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#63bfff"/><stop offset="1" stop-color="#dcf7ff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#63bfff" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#63bfff" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#dcf7ff" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#e5faff" stroke-width="3" stroke-linejoin="round">
+<path d="M70 267Q121 203 222 216Q278 223 337 254Q363 268 405 250L380 283L404 311Q352 302 323 292Q259 328 187 311Q115 296 70 267Z"/>
+<path d="M215 217L240 164L259 219" fill="#7bd2ff"/><path d="M132 246L103 215L110 269M304 267L330 310" fill="none"/>
+<circle cx="278" cy="250" r="9" fill="#fff"/><circle cx="280" cy="251" r="4" fill="#081426"/><path d="M315 270Q334 278 349 270" fill="none"/>
+<g fill="#dff8ff" stroke="none"><circle cx="140" cy="235" r="3"/><circle cx="173" cy="290" r="2"/><circle cx="241" cy="276" r="2.5"/><circle cx="292" cy="292" r="2"/></g>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

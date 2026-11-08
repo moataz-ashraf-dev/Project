@@ -1,0 +1,118 @@
+/* Global application shell and theme tokens. */
+.studyquest-app {
+          --sq-bg: #06111f;
+          --sq-surface: rgba(8, 25, 47, 0.72);
+          --sq-surface-solid: #0a1a30;
+          --sq-text: #e8f6ff;
+          --sq-muted: #8ca6bc;
+          --sq-muted-strong: #c9deef;
+          --sq-heading: #f5fbff;
+          --sq-border: rgba(105, 211, 255, 0.20);
+          --sq-border-soft: rgba(255, 255, 255, 0.08);
+          --sq-hover: rgba(89, 198, 255, 0.08);
+          --sq-glow: rgba(0, 205, 255, 0.16);
+          background: var(--sq-bg);
+          color: var(--sq-text);
+          transition: background-color 420ms ease, color 300ms ease;
+        }
+
+        .studyquest-app.theme-dark {
+          --sq-bg: #0d1117;
+          --sq-surface: rgba(22, 28, 36, 0.96);
+          --sq-surface-solid: #161c24;
+          --sq-text: #e3e9f0;
+          --sq-heading: #f5f7fa;
+          --sq-muted: #9aa6b5;
+          --sq-muted-strong: #c4ced9;
+          --sq-border: rgba(163, 177, 194, 0.18);
+          --sq-border-soft: rgba(163, 177, 194, 0.11);
+          --sq-hover: rgba(163, 177, 194, 0.08);
+          --sq-glow: transparent;
+          background-image: radial-gradient(ellipse at 50% -15%, rgba(39, 75, 94, .17), transparent 55%), linear-gradient(180deg,#0d1117,#10151c 55%,#0d1117);
+        }
+
+        .studyquest-app.theme-light {
+          --sq-bg: #f3f5f4;
+          --sq-surface: rgba(255, 255, 255, 0.94);
+          --sq-surface-solid: #ffffff;
+          --sq-text: #253345;
+          --sq-muted: #5d6b7d;
+          --sq-muted-strong: #405166;
+          --sq-heading: #182638;
+          --sq-border: rgba(31, 48, 67, 0.15);
+          --sq-border-soft: rgba(31, 48, 67, 0.095);
+          --sq-hover: rgba(31, 67, 76, 0.045);
+          --sq-glow: transparent;
+          background-image: none;
+          background-color: var(--sq-bg);
+        }
+
+        .studyquest-app.theme-ice {
+          --sq-heading: #f5fbff;
+          --sq-muted-strong: #d4ebfa;
+          background-image: radial-gradient(circle at 75% 5%, rgba(30, 170, 255, .12), transparent 30%), radial-gradient(circle at 10% 90%, rgba(123, 92, 255, .10), transparent 28%), linear-gradient(135deg, #06101e 0%, #07182b 45%, #06111f 100%);
+        }
+
+        .studyquest-app.theme-dark.bg-ink-800,
+        .studyquest-app.theme-ice.bg-ink-800 { background-color: var(--sq-bg) !important; }
+        .studyquest-app.theme-light.bg-ink-800 { background-color: var(--sq-bg) !important; }
+        .studyquest-app.theme-light .bg-ink-800 { background-color: var(--sq-surface-solid) !important; }
+        .studyquest-app.theme-light .bg-ink-900,
+        .studyquest-app.theme-light [class~='bg-ink-900/70'],
+        .studyquest-app.theme-light [class~='bg-ink-900/80'],
+        .studyquest-app.theme-light [class~='bg-ink-900/90'],
+        .studyquest-app.theme-light [class~='bg-ink-800/95'] { background-color: var(--sq-surface-solid) !important; }
+        .studyquest-app.theme-light .bg-ink-700,
+        .studyquest-app.theme-light .bg-ink-600,
+        .studyquest-app.theme-light [class~="bg-white/5"] { background-color: var(--sq-hover) !important; }
+        .studyquest-app.theme-light .glass {
+          background: var(--sq-surface) !important;
+          border-color: var(--sq-border-soft) !important;
+          box-shadow: 0 10px 35px rgba(15, 23, 42, 0.06);
+        }
+        .studyquest-app.theme-light .text-gray-200,
+        .studyquest-app.theme-light .text-gray-300 { color: var(--sq-text) !important; }
+        .studyquest-app.theme-light .text-gray-400,
+        .studyquest-app.theme-light .text-gray-500,
+        .studyquest-app.theme-light .text-gray-600 { color: var(--sq-muted) !important; }
+        .studyquest-app.theme-light [class~="border-white/5"],
+        .studyquest-app.theme-light [class~="border-white/10"],
+        .studyquest-app.theme-light [class~="border-white/20"] { border-color: var(--sq-border) !important; }
+        .studyquest-app.theme-light .neon-text-cyan,
+        .studyquest-app.theme-light .neon-text-emerald,
+        .studyquest-app.theme-light .neon-text-amber,
+        .studyquest-app.theme-light .neon-text-rose,
+        .studyquest-app.theme-light .neon-text-green { text-shadow: none; }
+
+        .studyquest-control,
+        .studyquest-language-control {
+          background: var(--sq-surface);
+          border-color: var(--sq-border);
+          color: var(--sq-text);
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        }
+        .studyquest-control:hover,
+        .studyquest-language-control:hover { background: var(--sq-hover); }
+        .studyquest-language-select { color: var(--sq-text); }
+        .studyquest-language-select option { background: var(--sq-surface-solid); color: var(--sq-text); }
+        .studyquest-app select option { background: var(--sq-surface-solid); color: var(--sq-text); }
+        .studyquest-app.theme-light select option { background: #ffffff; color: #111827; }
+        .studyquest-app.theme-dark select option, .studyquest-app.theme-ice select option { background: #0a1a30; color: #e8f6ff; }
+
+        .sq-shell-card {
+          background: var(--sq-surface);
+          border: 1px solid var(--sq-border);
+          box-shadow: 0 18px 60px rgba(0, 0, 0, .18), 0 0 30px var(--sq-glow);
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
+        }
+
+        .studyquest-app, .studyquest-app *, .studyquest-app::before, .studyquest-app::after {
+          transition-property: background-color, border-color, color, box-shadow, text-shadow, opacity, transform;
+          transition-duration: 300ms;
+          transition-timing-function: ease;
+        }
+        .studyquest-app .animate-spin, .studyquest-app .animate-pulse, .studyquest-app .animate-fade-in, .studyquest-app .rotate-border, .studyquest-app .motivational-shift { transition: none; }
+        @media (prefers-reduced-motion: reduce) { .studyquest-app, .studyquest-app *, .studyquest-app::before, .studyquest-app::after { transition-duration: 0ms !important; } }

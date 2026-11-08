@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="River Otter">
+<defs><radialGradient id="bg"><stop stop-color="#55c7e8" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55c7e8"/><stop offset="1" stop-color="#d8f7ff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#55c7e8" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#55c7e8" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#d8f7ff" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#dff8ff" stroke-width="3" stroke-linejoin="round">
+<ellipse cx="240" cy="265" rx="78" ry="103"/><circle cx="240" cy="176" r="61"/><ellipse cx="240" cy="218" rx="40" ry="28" fill="#d8f7ff" opacity=".65"/>
+<circle cx="207" cy="172" r="11" fill="#fff"/><circle cx="273" cy="172" r="11" fill="#fff"/><circle cx="209" cy="174" r="5" fill="#081426"/><circle cx="271" cy="174" r="5" fill="#081426"/>
+<path d="M231 206Q240 214 249 206M240 214V226" fill="none"/><path d="M178 245Q136 267 159 299M302 245Q344 267 321 299" fill="none"/><path d="M208 338L190 363M272 338L290 363" fill="none"/>
+<path d="M190 133Q177 109 198 100M290 133Q303 109 282 100" fill="none"/>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Twilight Manta">
+<defs><radialGradient id="bg"><stop stop-color="#a17cff" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a17cff"/><stop offset="1" stop-color="#e7ddff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#a17cff" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#a17cff" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#e7ddff" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#efe7ff" stroke-width="3" stroke-linejoin="round">
+<path d="M72 279Q123 199 208 221Q240 181 272 221Q357 199 408 279Q335 264 289 303Q240 337 191 303Q145 264 72 279Z"/>
+<path d="M240 217L240 326" fill="none"/><path d="M185 238L156 294M295 238L324 294" fill="none" opacity=".55"/>
+<circle cx="215" cy="239" r="8" fill="#fff"/><circle cx="265" cy="239" r="8" fill="#fff"/><circle cx="217" cy="240" r="4" fill="#081426"/><circle cx="263" cy="240" r="4" fill="#081426"/>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

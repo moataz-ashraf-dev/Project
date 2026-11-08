@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Cosmic Serpent">
+<defs><radialGradient id="bg"><stop stop-color="#8c72ff" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8c72ff"/><stop offset="1" stop-color="#d8c9ff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#8c72ff" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#8c72ff" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#d8c9ff" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#efe8ff" stroke-width="3" stroke-linejoin="round">
+<path d="M90 304Q134 242 199 246Q248 249 286 215Q325 181 379 203Q340 221 326 250Q365 277 393 311Q337 297 305 286Q258 329 201 324Q139 319 90 304Z"/>
+<path d="M292 232L315 173L331 232M310 248L350 222" fill="#7e62ee"/>
+<circle cx="318" cy="240" r="10" fill="#fff"/><circle cx="320" cy="242" r="5" fill="#081426"/><path d="M337 259Q354 268 368 258" fill="none"/>
+<g fill="#8feaff" stroke="none"><circle cx="148" cy="279" r="3"/><circle cx="180" cy="299" r="2"/><circle cx="228" cy="281" r="2.5"/><circle cx="268" cy="306" r="2"/></g>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

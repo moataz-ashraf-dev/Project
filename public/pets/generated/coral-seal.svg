@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Coral Seal">
+<defs><radialGradient id="bg"><stop stop-color="#ff8da9" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff8da9"/><stop offset="1" stop-color="#ffe1eb"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#ff8da9" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#ff8da9" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#ffe1eb" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#fff0f6" stroke-width="3" stroke-linejoin="round">
+<ellipse cx="240" cy="274" rx="112" ry="70"/><circle cx="240" cy="207" r="63"/><ellipse cx="240" cy="244" rx="39" ry="27" fill="#ffe1eb" opacity=".55"/>
+<circle cx="212" cy="202" r="10" fill="#fff"/><circle cx="268" cy="202" r="10" fill="#fff"/><circle cx="214" cy="204" r="5" fill="#081426"/><circle cx="266" cy="204" r="5" fill="#081426"/>
+<path d="M230 229Q240 237 250 229" fill="none"/><path d="M165 270L111 311L178 298M315 270L369 311L302 298" fill="#ff9eb5"/>
+<circle cx="240" cy="228" r="8" fill="#172238"/>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

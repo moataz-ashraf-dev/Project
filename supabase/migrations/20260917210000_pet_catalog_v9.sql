@@ -1,0 +1,47 @@
+-- StudyQuest v9: replace the visual collection with 40 genuinely different animal/fantasy companions.
+insert into public.catalog_items(item_type,item_id,name,rarity,coin_price,gem_price,purchasable,event_only) values
+('pet','sparky','Sparky','Common',0,0,true,false),
+('pet','velvet-cat','Velvet Cat','Common',320,0,true,false),
+('pet','moon-rabbit','Moon Rabbit','Common',360,0,true,false),
+('pet','ember-pup','Ember Pup','Common',400,0,true,false),
+('pet','pearl-hamster','Pearl Hamster','Common',440,0,true,false),
+('pet','suncrest-parrot','Suncrest Parrot','Common',480,0,true,false),
+('pet','ice-penguin','Ice Penguin','Common',520,0,true,false),
+('pet','sage-turtle','Sage Turtle','Common',560,0,true,false),
+('pet','cobalt-donkey','Cobalt Donkey','Common',600,0,true,false),
+('pet','aurora-fox','Aurora Fox','Rare',900,0,true,false),
+('pet','river-otter','River Otter','Rare',980,0,true,false),
+('pet','ruby-red-panda','Ruby Red Panda','Rare',1080,0,true,false),
+('pet','mist-raccoon','Mist Raccoon','Rare',1160,0,true,false),
+('pet','willow-deer','Willow Deer','Rare',1260,0,true,false),
+('pet','coral-seal','Coral Seal','Rare',1380,0,true,false),
+('pet','crystal-owl','Crystal Owl','Rare',1500,0,true,false),
+('pet','golden-capybara','Golden Capybara','Rare',1700,0,true,false),
+('pet','shadow-wolf','Shadow Wolf','Epic',0,28,true,false),
+('pet','snow-leopard','Snow Leopard','Epic',0,34,true,false),
+('pet','storm-eagle','Storm Eagle','Epic',0,39,true,false),
+('pet','solar-tiger','Solar Tiger','Epic',0,45,true,false),
+('pet','royal-lion','Royal Lion','Epic',0,50,true,false),
+('pet','jade-crocodile','Jade Crocodile','Epic',0,56,true,false),
+('pet','abyss-shark','Abyss Shark','Epic',0,62,true,false),
+('pet','twilight-manta','Twilight Manta','Epic',0,68,true,false),
+('pet','jade-griffin','Jade Griffin','Legendary',0,92,true,false),
+('pet','crimson-kitsune','Crimson Kitsune','Legendary',0,108,true,false),
+('pet','starlight-unicorn','Starlight Unicorn','Legendary',0,124,true,false),
+('pet','sky-pegasus','Sky Pegasus','Legendary',0,140,true,false),
+('pet','eternal-phoenix','Eternal Phoenix','Legendary',0,158,true,false),
+('pet','storm-wyvern','Storm Wyvern','Legendary',0,176,true,false),
+('pet','frost-dragon','Frost Dragon','Legendary',0,195,true,false),
+('pet','crystal-dragon','Crystal Dragon','Legendary',0,215,true,false),
+('pet','void-dragon','Void Dragon','Mythic',0,240,true,false),
+('pet','celestial-whale','Celestial Whale','Mythic',0,275,true,false),
+('pet','starfall-leviathan','Starfall Leviathan','Mythic',0,320,true,false),
+('pet','celestial-seraph','Celestial Seraph','Mythic',0,370,true,false),
+('pet','dreamweaver-kirin','Dreamweaver Kirin','Mythic',0,420,true,false),
+('pet','cosmic-serpent','Cosmic Serpent','Mythic',0,470,true,false),
+('pet','chrono-dragon','Chrono Dragon','Mythic',0,520,true,false)
+on conflict (item_type,item_id) do update set
+  name=excluded.name, rarity=excluded.rarity, coin_price=excluded.coin_price, gem_price=excluded.gem_price, purchasable=excluded.purchasable, event_only=excluded.event_only;
+
+-- The starter is earned through study, not purchased.
+update public.catalog_items set purchasable=false, coin_price=0, gem_price=0 where item_type='pet' and item_id='sparky';

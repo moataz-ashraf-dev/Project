@@ -1,0 +1,18 @@
+.weekly-streak-card { border-color:var(--sq-border-soft); background:linear-gradient(145deg,var(--sq-surface-solid),var(--sq-surface)); box-shadow:0 14px 34px rgba(0,0,0,.07),inset 0 1px 0 rgba(255,255,255,.045); }
+.weekly-streak-flame { color:#df9d3f; background:linear-gradient(145deg,rgba(238,174,76,.18),rgba(238,174,76,.055)); border:1px solid rgba(238,174,76,.19); }
+.weekly-streak-progress { height:.35rem; overflow:hidden; border-radius:999px; background:var(--sq-hover); }
+.weekly-streak-progress > span { display:block; height:100%; border-radius:inherit; background:linear-gradient(90deg,#47bd92,#62d6d3); box-shadow:0 0 14px rgba(77,204,172,.25); transition:width .35s ease; }
+.weekly-streak-day { min-height:5.3rem; border-color:var(--sq-border-soft); background:color-mix(in srgb,var(--sq-hover) 42%,transparent); color:var(--sq-muted); }
+.weekly-streak-day.is-today { border-color:color-mix(in srgb,var(--sq-accent-cyan) 43%,var(--sq-border)); background:color-mix(in srgb,var(--sq-accent-cyan) 8%,var(--sq-surface-solid)); }
+.weekly-streak-label { color:var(--sq-muted); }
+.weekly-streak-day.is-today .weekly-streak-label,.weekly-streak-today { color:var(--sq-accent-cyan); }
+.weekly-streak-mark { color:var(--sq-muted); background:var(--sq-hover); }
+.weekly-streak-day.is-today .weekly-streak-mark { box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--sq-accent-cyan) 16%,transparent); }
+.weekly-streak-day.is-complete { border-color:rgba(67,183,137,.35); background:linear-gradient(155deg,rgba(67,183,137,.12),rgba(67,183,137,.055)); color:#48b78b; }
+.weekly-streak-day.is-complete .weekly-streak-label { color:#48b78b; }
+.weekly-streak-day.is-complete .weekly-streak-mark { color:#fff; background:linear-gradient(145deg,#4bbd91,#329a76); box-shadow:0 4px 14px rgba(54,172,129,.25); }
+.weekly-streak-day.is-complete.is-today { border-color:#45b38a; box-shadow:0 0 0 2px rgba(69,179,138,.11); }
+.weekly-streak-day.is-complete.is-today .weekly-streak-today { color:#48b78b; }
+[data-theme='light'] .weekly-streak-card { box-shadow:0 12px 30px rgba(32,47,62,.06),inset 0 1px 0 rgba(255,255,255,.9); }
+[data-theme='light'] .weekly-streak-day.is-complete { background:linear-gradient(155deg,rgba(50,138,104,.10),rgba(50,138,104,.045)); }
+@media (max-width:480px) { .weekly-streak-days { gap:.3rem; } .weekly-streak-day { min-height:4.8rem; gap:.4rem; border-radius:.7rem; padding:.55rem .1rem; } .weekly-streak-label { font-size:.58rem; letter-spacing:0; } .weekly-streak-mark { height:1.7rem; width:1.7rem; border-radius:.55rem; } .weekly-streak-today { font-size:.53rem; } }

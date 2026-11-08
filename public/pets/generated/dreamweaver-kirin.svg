@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Dreamweaver Kirin">
+<defs><radialGradient id="bg"><stop stop-color="#ef82e9" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef82e9"/><stop offset="1" stop-color="#e9fbff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#ef82e9" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#ef82e9" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#e9fbff" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#f7eaff" stroke-width="3" stroke-linejoin="round">
+<path d="M175 292Q165 220 197 179L184 120L221 158Q240 150 259 158L296 120L283 179Q315 220 305 292Q275 329 240 332Q205 329 175 292Z"/>
+<path d="M204 161L196 112M276 161L284 112" fill="none" stroke="#f7b4ff" stroke-width="10"/>
+<path d="M240 116Q258 92 274 116Q255 134 240 124Q225 134 206 116Q222 92 240 116Z" fill="#b98cff"/>
+<circle cx="210" cy="205" r="10" fill="#fff"/><circle cx="270" cy="205" r="10" fill="#fff"/><circle cx="212" cy="207" r="5" fill="#081426"/><circle cx="268" cy="207" r="5" fill="#081426"/><path d="M228 246Q240 257 252 246" fill="none"/>
+<path d="M196 287Q157 310 137 337M284 287Q323 310 343 337" fill="none" stroke="#a9f4ff" stroke-width="7"/>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

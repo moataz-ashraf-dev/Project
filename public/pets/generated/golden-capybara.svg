@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-label="Golden Capybara">
+<defs><radialGradient id="bg"><stop stop-color="#e9b95c" stop-opacity=".30"/><stop offset=".58" stop-color="#17385d" stop-opacity=".44"/><stop offset="1" stop-color="#030916"/></radialGradient><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9b95c"/><stop offset="1" stop-color="#fff1bd"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="10"/></filter></defs>
+<rect width="480" height="420" rx="36" fill="#030916"/><rect x="7" y="7" width="466" height="406" rx="30" fill="url(#bg)" stroke="#e9b95c" stroke-opacity=".46" stroke-width="2"/>
+<circle cx="115" cy="110" r="88" fill="#e9b95c" opacity=".13" filter="url(#g)"/><circle cx="375" cy="230" r="110" fill="#fff1bd" opacity=".10" filter="url(#g)"/>
+<g transform="translate(0,2)">
+<g fill="url(#body)" stroke="#fff4cf" stroke-width="3" stroke-linejoin="round">
+<ellipse cx="240" cy="270" rx="116" ry="76"/><path d="M145 252Q132 207 172 180Q215 151 277 174Q331 193 335 249Q318 308 244 321Q171 315 145 252Z"/>
+<path d="M160 211L132 181L179 189M320 211L348 181L301 189" fill="#e2aa45"/>
+<circle cx="207" cy="220" r="10" fill="#fff"/><circle cx="273" cy="220" r="10" fill="#fff"/><circle cx="209" cy="222" r="5" fill="#081426"/><circle cx="271" cy="222" r="5" fill="#081426"/>
+<ellipse cx="240" cy="251" rx="32" ry="19" fill="#c58c35" opacity=".65"/><path d="M226 254Q240 263 254 254" fill="none"/><path d="M172 311L158 344M308 311L322 344" fill="none"/>
+</g></g><g fill="#e9fbff" opacity=".8"><circle cx="62" cy="62" r="2"/><circle cx="404" cy="72" r="1.8"/><circle cx="380" cy="310" r="1.5"/><circle cx="96" cy="300" r="1.4"/></g></svg>

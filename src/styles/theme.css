@@ -1,0 +1,45 @@
+/* StudyQuest visual system: calm, legible surfaces in both themes. */
+.studyquest-app { --sq-accent-cyan:#20a0a8; --sq-accent-green:#48b78b; --sq-ring-track:rgba(117,137,156,.20); --sq-ring-idle:#8794a3; }
+.studyquest-app.theme-light {
+  --sq-bg:#f3f5f4; --sq-surface:#fff; --sq-surface-solid:#fff;
+  --sq-text:#253345; --sq-muted:#5d6b7d; --sq-muted-strong:#405166; --sq-heading:#182638;
+  --sq-border:#d7dee3; --sq-border-soft:#e4e9ec; --sq-hover:#f0f3f3; --sq-glow:transparent;
+  --sq-accent-cyan:#138a93; --sq-accent-green:#328a68; --sq-ring-track:rgba(39,64,86,.14); --sq-ring-idle:#8d9aa6;
+  background:#f3f5f4 !important; color:#253345;
+}
+.studyquest-app.theme-dark {
+  --sq-bg:#0d1117; --sq-surface:#161c24; --sq-surface-solid:#161c24;
+  --sq-text:#e3e9f0; --sq-muted:#9aa6b5; --sq-muted-strong:#c4ced9; --sq-heading:#f5f7fa;
+  --sq-border:rgba(163,177,194,.18); --sq-border-soft:rgba(163,177,194,.11); --sq-hover:rgba(163,177,194,.08); --sq-glow:transparent;
+  --sq-accent-cyan:#52c2cc; --sq-accent-green:#57c49a; --sq-ring-track:rgba(180,193,207,.16); --sq-ring-idle:#657181;
+  background:#0d1117; color:#e3e9f0;
+}
+.studyquest-app.theme-light .sq-shell-card { background:#fff; border-color:#dce2e6; box-shadow:0 6px 22px rgba(32,47,62,.065); backdrop-filter:none; }
+.studyquest-app.theme-dark .sq-shell-card { background:linear-gradient(155deg,#171e27,#141a22); border-color:#29333f; box-shadow:0 8px 24px rgba(0,0,0,.20),inset 0 1px 0 rgba(255,255,255,.025); backdrop-filter:none; }
+.studyquest-app.theme-light .sq-shell-card::before { opacity:.18; }
+.studyquest-app.theme-dark .glass { background:rgba(22,28,36,.94); border-color:#29333f; box-shadow:0 5px 20px rgba(0,0,0,.18); }
+.studyquest-app.theme-light .glass { background:#fff !important; border-color:#dce2e6 !important; box-shadow:0 4px 16px rgba(32,47,62,.055); backdrop-filter:none; }
+.studyquest-app.theme-light .app-sidebar { background:#fff !important; border-color:#dce2e6 !important; box-shadow:3px 0 20px rgba(32,47,62,.045); }
+.studyquest-app.theme-dark .app-sidebar { background:#151b23 !important; border-color:#29333f !important; box-shadow:3px 0 22px rgba(0,0,0,.16); }
+.studyquest-app.theme-light .app-sidebar .text-gray-200 { color:#243348 !important; }
+.studyquest-app.theme-light .app-sidebar .text-gray-300,.studyquest-app.theme-light .app-sidebar .text-gray-400,.studyquest-app.theme-light .app-sidebar .text-gray-500 { color:#566579 !important; }
+.studyquest-app.theme-dark .app-sidebar .text-gray-400,.studyquest-app.theme-dark .app-sidebar .text-gray-500 { color:#a5b0bd !important; }
+.studyquest-app.theme-light .app-sidebar nav button[class*="bg-neon-cyan/10"] { color:#115b72 !important; background:#e8f5f8 !important; border-color:#b9dfe8 !important; box-shadow:none !important; }
+.studyquest-app.theme-dark .app-sidebar nav button[class*="bg-neon-cyan/10"] { color:#72d7e1 !important; background:rgba(43,151,163,.13) !important; border-color:rgba(77,188,197,.28) !important; box-shadow:none !important; }
+.studyquest-app.theme-light .app-sidebar nav button[class*="bg-neon-amber/10"] { color:#79530c !important; background:#faf3e3 !important; border-color:#ead8a9 !important; }
+.studyquest-app.theme-dark .app-sidebar nav button[class*="bg-neon-amber/10"] { color:#e6c16a !important; background:rgba(157,119,39,.14) !important; border-color:rgba(210,168,76,.28) !important; }
+.studyquest-app.theme-light :is(.text-neon-cyan,.text-neon-emerald,.text-neon-green,.text-neon-violet,.text-neon-amber,.text-neon-rose) { text-shadow:none !important; }
+.studyquest-app.theme-light .text-neon-cyan { color:#087b96 !important; }
+.studyquest-app.theme-light .text-neon-emerald,.studyquest-app.theme-light .text-neon-green { color:#16734d !important; }
+.studyquest-app.theme-light .text-neon-violet { color:#7044a6 !important; }
+.studyquest-app.theme-light .text-neon-amber { color:#875b09 !important; }
+.studyquest-app.theme-light .text-neon-rose { color:#a9364e !important; }
+.studyquest-app.theme-dark .text-neon-cyan { color:#55c5cf; }
+.studyquest-app.theme-dark .text-neon-emerald,.studyquest-app.theme-dark .text-neon-green { color:#54c797; }
+.studyquest-app.theme-dark .text-neon-violet { color:#ae91e8; }
+.studyquest-app.theme-dark .text-neon-amber { color:#e7bd66; }
+.studyquest-app.theme-dark .text-neon-rose { color:#e98299; }
+.studyquest-app.theme-light [class~="text-[10px]"],.studyquest-app.theme-dark [class~="text-[10px]"] { font-size:.7rem !important; }
+.studyquest-app.theme-light [class~="text-[11px]"],.studyquest-app.theme-dark [class~="text-[11px]"] { font-size:.75rem !important; }
+.studyquest-app :is(button,a,input,select,textarea):focus-visible { outline:2px solid #268c99; outline-offset:2px; }
+
